@@ -59,13 +59,21 @@ conda activate odds-ai
 ```
 
 ### 3. Secure Configuration
-Projekt wykorzystuje serwery proxy (np. webshare.io) do obsługi zapytań API. Skonfiguruj następujące zmienne środowiskowe:
+Create a .env file in the root directory to store your credentials. This file is excluded from version control for your safety.
 
 ```bash
-export proxy_host='your_proxy_host'
-export proxy_port='your_port'
-export proxy_username='your_username'
-export proxy_password='your_password'
+# Betfair API Credentials
+BETFAIR_APP_KEY='your_app_key'
+BETFAIR_USERNAME='your_username'
+BETFAIR_PASSWORD='your_password'
+BETFAIR_CERT_PATH='certs/client-2048.crt'
+BETFAIR_KEY_PATH='certs/client-2048.key'
+
+# Proxy Configuration
+PROXY_HOST='your_proxy_host'
+PROXY_PORT='your_port'
+PROXY_USER='your_username'
+PROXY_PASS='your_password'
 ```
 ## 📈 Usage
 
