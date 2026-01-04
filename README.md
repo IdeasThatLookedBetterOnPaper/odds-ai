@@ -9,10 +9,6 @@ A specialized research and automation framework for sports exchange trading on B
 The core philosophy of this project is that sports markets are dynamic time-series. Instead of using static betting rules, this system treats strategy development as an **optimization problem**. It "breeds" trading bots (Individuals) by simulating thousands of trades on historical data to find the most robust parameters for market entry and exit.
 
 
-
-[Image of genetic algorithm flow chart]
-
-
 ## 🚀 Key Features
 
 * **Real-time Data Pipeline:** Automated scraping of "Match Odds" markets every 60 seconds, capturing 3-tier BACK/LAY depth and total liquidity.
